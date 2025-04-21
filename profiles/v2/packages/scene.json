@@ -1,4 +1,6 @@
 {
+  "__version__": "1.0.1",
+  "builder": {},
   "gizmos-infos": {
     "is2D": true,
     "is3DIcon": false,
@@ -15,8 +17,6 @@
     "coordinate": "local",
     "toolsVisibility3d": true
   },
-  "__version__": "1.0.1",
-  "builder": {},
   "snap-configs": {
     "position": {
       "x": 1,
@@ -32,95 +32,5 @@
   "rect-snap-configs": {
     "enableSnapping": true,
     "snapThreshold": 4
-  },
-  "float-window": {
-    "position": {
-      "cc": {
-        "Camera": {
-          "dock": false,
-          "top": null,
-          "bottom": 10,
-          "left": null,
-          "right": 10
-        }
-      }
-    }
-  },
-  "camera-infos": {
-    "db5c5c0a-414d-427e-a441-c4e4045e0fbb": {
-      "position": {
-        "x": 640,
-        "y": 360.0000000000001,
-        "z": 5000
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "viewCenter": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "contentRect": {
-        "x": 640,
-        "y": 360.00000000000006,
-        "width": 0,
-        "height": 0
-      },
-      "scale": 1
-    },
-    "02a92b42-db3a-4484-9138-c93291a5e743": {
-      "position": {
-        "x": 640,
-        "y": 360.0000000000001,
-        "z": 5000
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "viewCenter": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "contentRect": {
-        "x": 1.2128617459882356e-13,
-        "y": -41.77362893815629,
-        "width": 1199.8000000000002,
-        "height": 674.8875
-      },
-      "scale": 0.9373437500000001
-    }
-  },
-  "camera-uuids": [
-    "db5c5c0a-414d-427e-a441-c4e4045e0fbb",
-    "02a92b42-db3a-4484-9138-c93291a5e743"
-  ],
-  "camera": {
-    "color": [
-      48,
-      48,
-      48,
-      255
-    ],
-    "fov": 45,
-    "far": 10000,
-    "near": 0.01,
-    "wheelSpeed": 0.01,
-    "wanderSpeed": 10,
-    "enableAcceleration": true,
-    "size": "__default_design__",
-    "far2D": 10000,
-    "near2D": 1,
-    "wheelSpeed2D": 6,
-    "iso": 0,
-    "aperture": 19,
-    "shutter": 7
   }
 }
